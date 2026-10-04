@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+  Landing page for I promise (project name: Give It Up). The Support URL
+  registered in App Store Connect points at support.html, not here.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I promise</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6c6c70;
+    --accent: #c2541e;
+    --rule: rgba(0, 0, 0, 0.1);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --fg: #f2f2f7;
+      --muted: #98989d;
+      --accent: #ff9300;
+      --rule: rgba(255, 255, 255, 0.15);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 4rem 1.5rem 5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 34rem; margin: 0 auto; }
+  h1 { font-size: 2.25rem; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 0.5rem; }
+  h2 { font-size: 1.1rem; margin: 2.5rem 0 0.5rem; letter-spacing: -0.01em; }
+  .lede { font-size: 1.2rem; color: var(--muted); margin: 0 0 2.5rem; }
+  a { color: var(--accent); }
+  dl { margin: 0; }
+  dt { font-weight: 600; margin-top: 1.25rem; }
+  dd { margin: 0.25rem 0 0; color: var(--muted); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0 1.5rem; }
+  footer { color: var(--muted); font-size: 0.9rem; }
+  footer a { margin-right: 1rem; }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>I promise</h1>
+  <p class="lede">Make a promise to yourself. Watch the days add up.
+  That's the whole app.</p>
+
+  <h2>What it does</h2>
+  <dl>
+    <dt>One promise, one number</dt>
+    <dd>Write what you are giving up, or taking up, and the app counts the
+    days you have kept to it. Slip, and the counter starts again while your
+    best streak is remembered.</dd>
+
+    <dt>In your own voice</dt>
+    <dd>Record the promise as you say it, and play it back on the days it
+    is hardest to keep.</dd>
+
+    <dt>Private by design</dt>
+    <dd>Everything stays on your iPhone. No account, no sync, no analytics,
+    and no networking code at all.</dd>
+  </dl>
+
+  <h2>Need help?</h2>
+  <p><a href="./support.html">Support and common questions</a>, or email
+  <a href="mailto:niklas@helloniklas.com">niklas@helloniklas.com</a>.</p>
+
+  <hr>
+  <footer>
+    <a href="./support.html">Support</a>
+    <a href="./privacy.html">Privacy Policy</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
+  </footer>
+
+</main>
+</body>
+</html>
