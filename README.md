@@ -1,6 +1,6 @@
-# I promise — website
+# I promise – day by day — website
 
-The public pages for the **I promise** iOS app (project name Give It Up),
+The public pages for the **I promise – day by day** iOS app (project name Give It Up),
 served by GitHub Pages from the root of this repository's `main` branch.
 
 | Page | Purpose |
